@@ -1,0 +1,99 @@
+body{
+    background-color: #23272A;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.logo{
+    pointer-events: none;
+}
+
+.myworkstitle{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.card{
+  background-color: #18191a;
+  color: white;
+  border: solid 2px rgb(189, 6, 6);
+}
+
+.colorred{
+  color: red;
+}
+
+.content{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+.card1{
+  padding-left: 10px;
+}
+  /*For Mobile Devices Section Starts */
+  @media screen and (max-width: 600px) {
+
+  .footer {
+    background-color:rgba(0, 0, 0, 0.2);
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  
+  .footersoc{
+    color: white;
+  }
+  
+  .social{
+    padding-left: 10px;
+  }
+  
+  .copyright{
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  }
+  /*For Mobile Devices Section Starts */
+  
+  /*For Laptop Devices Section Starts */
+  @media screen and (min-width: 600px) {
+    
+  .footer {
+    background-color:rgba(0, 0, 0, 0.2);
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  
+  .footersoc{
+    color: white;
+  }
+  
+  .social{
+    padding-left: 10px;
+  }
+  
+  .copyright{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  }
+  /*For Laptop Devices Section Ends */
